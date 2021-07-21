@@ -68,6 +68,10 @@ module.exports = (env, argv) => ({
           }
         }],
       },
+      {
+        test:/\.rq$/,
+        use: 'raw-loader'
+      },
     ]
   },
   name: 'whyis',
