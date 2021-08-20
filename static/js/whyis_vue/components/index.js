@@ -12,6 +12,8 @@ import './add-attribute';
 import './add-link';
 import './add-knowledge-menu';
 import './accordion'
+import './facet-browser'
+import './facets'
 
 import Vue from 'vue';
 Vue.component('vega-lite', () => import('./vega-lite-wrapper'))
