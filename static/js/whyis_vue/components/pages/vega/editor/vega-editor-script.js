@@ -211,15 +211,12 @@ export default Vue.component('vega-editor', {
     goToDataVoyager() {
       goToView(VIEW_URIS.CHART_EDITOR, 'voyager')
     },
-<<<<<<< HEAD
-=======
     onFacetBrowserUpdated(browserData) {
       this.facetBrowserData.facetQuery = browserData.fbquery;
     },
     setBrowserUri(){
       this.facetBrowserData.facetClassUri = this.facetBrowserData.uriInput;
     },
->>>>>>> 606c5c0718d6c2683769a4bdf9d2759b8dd55147
   },
   async created () {
     if(EventServices.authUser == undefined){
