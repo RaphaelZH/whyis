@@ -12,8 +12,8 @@ sudo apt-get update
 echo "Installing puppet..."
 sudo apt-get install -y puppet-agent libaugeas0
 
-echo "Installing virtualenv..."
-sudo apt-get install -y python-virtualenv
+#echo "Installing virtualenv..."
+#sudo apt-get install -y python-virtualenv
 
 export PATH=/opt/puppetlabs/bin/:$PATH
 
